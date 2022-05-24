@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.selenium" />
+          <option value="video.darkflow" />
+          <option value="FireDetection.firedetected.detectedParcelImage.setMovie" />
+          <option value="super.Ui_Form" />
+          <option value="FireDetection.firedetected.fotoBayrak" />
+          <option value="googlemaps.client.Client.distance_matrix" />
+          <option value="detection.src" />
+          <option value="PyQt5.uic" />
+          <option value="ffd1.konsola_yaz.setStyleSheet" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
