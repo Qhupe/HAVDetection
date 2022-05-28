@@ -58,5 +58,7 @@ def draw_detection(
         img = cv2.rectangle(img, (tb_x1, tb_y1), (tb_x2, tb_y2), clr, -1)
 
         img = cv2.putText(img, text, (x1 + border, y1 - border), font, font_scale, text_color, text_weight, cv2.LINE_AA)
+        dosya = open("data.txt", "w")
+        dosya.write(str(text))
 
     return img
